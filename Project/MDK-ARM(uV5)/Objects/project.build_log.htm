@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Will Zhao, 123456, LIC=S5IJJ-UZ33B-GPIZR-KINR6-JECBA-WVHD9
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.23
+Toolchain Path:  D:\Software\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DCM.DLL V1.15.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.27.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Will Zhao\Desktop\MY OWN\Project\MDK-ARM(uV5)\project.uvprojx
+Project File Date:  10/28/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'D:\Software\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Flash'
+compiling bsp_fmc_io.c...
+compiling main.c...
+..\..\User\main.c(44): warning:  #177-D: variable "data"  was declared but never referenced
+  	uint8_t data[3];
+..\..\User\main.c(45): warning:  #177-D: variable "buf1"  was declared but never referenced
+  	const char buf1[] = "接收到串口命令1\r\n";
+..\..\User\main.c(46): warning:  #177-D: variable "buf2"  was declared but never referenced
+  	const char buf2[] = "接收到串口命令2\r\n";
+..\..\User\main.c(47): warning:  #177-D: variable "buf3"  was declared but never referenced
+  	const char buf3[] = "接收到串口命令3\r\n";
+..\..\User\main.c(48): warning:  #177-D: variable "buf4"  was declared but never referenced
+  	const char buf4[] = "接收到串口命令4\r\n";
+..\..\User\main.c(49): warning:  #177-D: variable "buf5"  was declared but never referenced
+      char buf5[] = "Hello World!!!\r\n";
+..\..\User\main.c(195): warning:  #177-D: function "SampleDataDealing"  was declared but never referenced
+  void SampleDataDealing(void)
+..\..\User\main.c: 7 warnings, 0 errors
+compiling bsp_beep.c...
+compiling bsp_timer.c...
+compiling bsp_led.c...
+compiling bsp.c...
+compiling bsp_key.c...
+compiling bsp_tim_pwm.c...
+compiling bsp_fmc_ad7606.c...
+compiling stm32f4xx_it.c...
+compiling Disp.c...
+compiling SEGGER_HardFaultHandler.c...
+compiling DataSample.c...
+compiling bsp_uart_fifo.c...
+linking...
+Program Size: Code=16324 RO-data=612 RW-data=60 ZI-data=12692  
+FromELF: creating hex file...
+".\Objects\project.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Flash
+  D:\Software\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:28
+</pre>
+</body>
+</html>
