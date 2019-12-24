@@ -84,4 +84,5 @@
 .\objects\stm32f4xx_it.o: ..\..\User\bsp\inc\bsp_tim_pwm.h
 .\objects\stm32f4xx_it.o: ..\..\User\app\inc\DataSample.h
 .\objects\stm32f4xx_it.o: ..\..\User\app\inc\Disp.h
+.\objects\stm32f4xx_it.o: ..\..\User\app\inc\Modbus_slave.h
 .\objects\stm32f4xx_it.o: ..\..\User\bsp\stm32f4xx_it.h

@@ -84,3 +84,4 @@
 .\objects\bsp_fmc_ad7606.o: ..\..\User\bsp\inc\bsp_tim_pwm.h
 .\objects\bsp_fmc_ad7606.o: ..\..\User\app\inc\DataSample.h
 .\objects\bsp_fmc_ad7606.o: ..\..\User\app\inc\Disp.h
+.\objects\bsp_fmc_ad7606.o: ..\..\User\app\inc\Modbus_slave.h

@@ -84,3 +84,4 @@
 .\objects\segger_hardfaulthandler.o: ..\..\User\bsp\inc\bsp_tim_pwm.h
 .\objects\segger_hardfaulthandler.o: ..\..\User\app\inc\DataSample.h
 .\objects\segger_hardfaulthandler.o: ..\..\User\app\inc\Disp.h
+.\objects\segger_hardfaulthandler.o: ..\..\User\app\inc\Modbus_slave.h

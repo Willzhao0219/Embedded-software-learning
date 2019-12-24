@@ -65,11 +65,7 @@ int main(void)
 	/* 主程序大循环 */
 	while (1)
 	{
-		/* CPU空闲时执行的函数，在 bsp.c */
-		bsp_Idle();
-		
-		
-		
+
 		bsp_Idle();		/* 空闲时执行的函数,比如喂狗. 在bsp.c中 */
 
 		if (ucRefresh == 1)
@@ -80,7 +76,7 @@ int main(void)
 			AD7606_Mak();
 										 
 			/* 打印ADC采样结果 */
-			AD7606_Disp();		
+//			AD7606_Disp();		
 		}
 
 		if (ucFifoMode == 0)	/* AD7606 普通工作模式 */

@@ -84,3 +84,4 @@
 .\objects\datasample.o: ..\..\User\bsp\inc\bsp_tim_pwm.h
 .\objects\datasample.o: ..\..\User\app\inc\DataSample.h
 .\objects\datasample.o: ..\..\User\app\inc\Disp.h
+.\objects\datasample.o: ..\..\User\app\inc\Modbus_slave.h
