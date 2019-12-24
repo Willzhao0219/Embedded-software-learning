@@ -123,9 +123,12 @@
 //#include "bsp_rs485_led.h"
 //#include "bsp_can.h"
 
-/* 通过取消注释或者添加注释的方式控制是否包含功能模块 */
+/* 相关功能对应头文件 */
+
 #include "DataSample.h"
 #include "Disp.h"
+#include "Modbus_slave.h"
+
 
 /* 提供给其他C文件调用的函数 */
 void bsp_Init(void);

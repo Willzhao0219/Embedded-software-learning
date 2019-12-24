@@ -42,7 +42,7 @@
 
 #define	UART1_FIFO_EN	1
 #define	UART2_FIFO_EN	0
-#define	UART3_FIFO_EN	0
+#define	UART3_FIFO_EN	1
 #define	UART4_FIFO_EN	0
 #define	UART5_FIFO_EN	0
 #define	UART6_FIFO_EN	0

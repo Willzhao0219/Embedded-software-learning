@@ -12,6 +12,7 @@
 ".\objects\bsp_fmc_ad7606.o"
 ".\objects\datasample.o"
 ".\objects\disp.o"
+".\objects\modbus_slave.o"
 ".\objects\startup_stm32f429xx.o"
 ".\objects\stm32f4xx_hal.o"
 ".\objects\stm32f4xx_hal_cortex.o"

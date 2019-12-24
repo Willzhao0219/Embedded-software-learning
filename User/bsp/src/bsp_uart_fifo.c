@@ -614,10 +614,10 @@ void RS485_SendStr(char *_pBuf)
 *	·µ »Ø Öµ: ÎÞ
 *********************************************************************************************************
 */
-//extern void MODH_ReciveNew(uint8_t _byte);
+extern void Modbus_ReciveNew(uint8_t _byte);
 void RS485_ReciveNew(uint8_t _byte)
 {
-//	MODH_ReciveNew(_byte);
+	Modbus_ReciveNew(_byte);
 }
 
 /*
